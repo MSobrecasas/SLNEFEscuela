@@ -29,5 +29,11 @@ namespace WindowsEFEscuela.Models
         [Required]
         public string Titulo { get; set; }
 
+
+        #region Lista
+        public List<Alumno> alumnos { get; set; }
+
+        #endregion
+
     }
 }
