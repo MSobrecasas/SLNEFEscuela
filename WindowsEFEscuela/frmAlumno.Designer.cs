@@ -42,6 +42,7 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.cbmProfesor = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.GridAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -161,16 +162,26 @@
             // cbmProfesor
             // 
             this.cbmProfesor.FormattingEnabled = true;
-            this.cbmProfesor.Location = new System.Drawing.Point(185, 161);
+            this.cbmProfesor.Location = new System.Drawing.Point(185, 147);
             this.cbmProfesor.Name = "cbmProfesor";
             this.cbmProfesor.Size = new System.Drawing.Size(121, 21);
             this.cbmProfesor.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(48, 147);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Profesor";
             // 
             // frmAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.cbmProfesor);
             this.Controls.Add(this.dtpFechaNacimiento);
             this.Controls.Add(this.btnBuscar);
@@ -210,5 +221,6 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
         private System.Windows.Forms.ComboBox cbmProfesor;
+        private System.Windows.Forms.Label label5;
     }
 }

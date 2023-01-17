@@ -40,7 +40,7 @@ namespace WindowsEFEscuela
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(txtId.Text);
-            MessageBox.Show(AbmAlumno.TraerUno(id).Nombre);
+            MessageBox.Show((AbmAlumno.TraerUno(id).Nombre + " " + AbmAlumno.TraerUno(id).Apellido));
         }
 
 
